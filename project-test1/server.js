@@ -3,11 +3,11 @@ const path = require('path');
 const app = express();
 
 // Serve static files....
-app.use(express.static(__dirname + '/dist/project-test'));
+app.use(express.static(__dirname + '/dist/project-test1'));
 
 // Send all requests to index.html
 app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname + '/dist/project-test/index.html'));
+  res.sendFile(path.join(__dirname + '/dist/project-test1/index.html'));
 });
 
 // default Heroku PORT
