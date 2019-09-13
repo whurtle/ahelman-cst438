@@ -1,1 +1,6 @@
-<p>sign-in works!</p>
+<div class="play-container">
+  <p>
+      <input type="text" [(ngModel)]="name"><br>
+      <span class="showPassword" ng-click="togglePassword()">{{ typePassword ? 'Hide' : 'Show' }}</span><br> <input type="{{ typePassword ? 'text' : 'password' }}" name="password" placeholder="Password"> 
+  </p>
+</div>
