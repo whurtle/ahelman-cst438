@@ -1,9 +1,11 @@
-ul {
+#navBar{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    background-image: url(../assets/img/arabesque.png);
+    
 }
 
 li {
@@ -23,5 +25,6 @@ li a:hover {
 background-color: #111;
 }
 body {
-    background-color: #0f52ba;
+    background-color: #db66cc;
+    background-image: url(../assets/img/black-orchid.png)
 }
