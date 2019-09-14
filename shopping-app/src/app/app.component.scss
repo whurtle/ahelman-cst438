@@ -1,3 +1,4 @@
+
 #navBar{
     list-style-type: none;
     margin: 0;
@@ -20,11 +21,23 @@ padding: 14px 16px;
 text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
+// changes shade of navigational link on hover
 li a:hover {
 background-color: #111;
 }
+// sets background of entire website
 body {
     background-color: #db66cc;
     background-image: url(../assets/img/black-orchid.png)
+}
+header{
+    text-align: center;
+}
+// this is currently the website title/logo
+h1{
+    font-size: 2em;
+    display: inline;
+    background-color: silver;
+    color: rgb(206, 26, 131);
+    font-family: 'Bubblegum Sans', cursive;
 }
