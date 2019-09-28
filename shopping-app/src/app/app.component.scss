@@ -1,19 +1,16 @@
 
 #navBar{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #333;
     background-image: url(../assets/img/arabesque.png);
     
 }
-
-li {
+#navBar li {
 float: right;
 }
 
-li a {
+#navBar li a {
 display: block;
 color: white;
 text-align: center;
@@ -37,7 +34,6 @@ header{
 h1{
     font-size: 2em;
     display: inline;
-    background-color: silver;
-    color: rgb(206, 26, 131);
+    color: #db66cc;
     font-family: 'Bubblegum Sans', cursive;
 }
