@@ -1,1 +1,58 @@
-<p>cart works!</p>
+<div class="shopping-cart">
+        <!-- Title -->
+        <div class="title">
+          Your Cart
+        </div>
+       
+        <!-- Product #1 -->
+        <div class="item">
+          <div class="description">
+            <span>Trash Panda</span>
+          </div>
+          <br>
+          <div class="image">
+                <img src="../assets/img/racoon.jpg" alt="" width=100px/>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">$13.37</div>
+        </div>
+       
+        <!-- Product #2 -->
+        <div class="item">
+       
+
+       
+          <div class="description">
+            <span>Sea Cow</span>
+          </div>
+
+          <div class="image">
+                <img src="../assets/img/manatee.jpg" alt="" width=100px/>
+          </div>
+       
+          <div class="quantity">
+            <button class="plus-btn" type="button" name="button">
+              <img src="plus.svg" alt="" />
+            </button>
+            <input type="text" name="name" value="1">
+            <button class="minus-btn" type="button" name="button">
+              <img src="minus.svg" alt="" />
+            </button>
+          </div>
+       
+          <div class="total-price">$39.99</div>
+        </div>
+        <a id="checkout-link" href="#" routerLink="/cart/checkout" routerLinkActive="active">Checkout</a>
+      </div>
+
+
